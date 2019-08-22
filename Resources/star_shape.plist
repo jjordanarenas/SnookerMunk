@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+    <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+        </dict>
+        <key>scale_factor</key>
+        <real>1</real>
+        <key>category_names</key>
+        <array>
+        </array>         
+        <key>bodies</key>
+        <dict>
+
+            <key>star</key>
+            <dict>
+                <key>anchorpoint</key>
+                <string>{ 0.50000,0.50000 }</string>
+                <key>is_static</key>
+                <false/>
+                <key>affected_by_gravity</key>
+                <true/>
+                <key>allows_rotation</key>
+                <true/>
+                <key>fixtures</key>
+                <array>
+
+                    <dict>
+                        <key>mass</key>
+                        <real>1</real>
+                        <key>elasticity</key>
+                        <real>0.2</real>
+                        <key>friction</key>
+                        <real>0.7</real>
+                        <key>surface_velocity</key>
+                        <string>{ 0.00000,0.00000 }</string>
+                        <key>corner_radius</key>
+                        <real>0</real>
+                        <key>collision_categories</key>
+                        <integer>0</integer>
+                        <key>collision_mask</key>
+                        <integer>0</integer>
+                        <key>collision_type</key>
+                        <string></string>
+                        <key>collision_group</key>
+                        <string></string>
+                        <key>is_sensor</key>
+                        <false/>
+                        
+                        
+                        <key>fixture_type</key>
+                        <string>POLYGON</string>
+                        <key>polygons</key>
+                        <array>
+                            <array>   
+                                <string>{ 47.00000,23.50000 }</string>   
+                                <string>{ 28.00000,9.50000 }</string>   
+                                <string>{ 21.00000,40.50000 }</string>   
+                                <string>{ 42.00000,38.50000 }</string>   
+                                <string>{ 57.00000,36.50000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 28.00000,9.50000 }</string>   
+                                <string>{ 47.00000,23.50000 }</string>   
+                                <string>{ 47.50000,3.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 21.00000,40.50000 }</string>   
+                                <string>{ 28.00000,9.50000 }</string>   
+                                <string>{ 13.50000,22.00000 }</string>   
+                                <string>{ 1.50000,34.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 13.50000,22.00000 }</string>   
+                                <string>{ 28.00000,9.50000 }</string>   
+                                <string>{ 14.00000,2.50000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 21.00000,40.50000 }</string>   
+                                <string>{ 30.50000,56.00000 }</string>   
+                                <string>{ 42.00000,38.50000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 30.50000,57.00000 }</string>   
+                                <string>{ 30.50000,56.00000 }</string>   
+                                <string>{ 21.00000,40.50000 }</string>
+                            </array>
+                        </array>
+                        
+                        
+                    </dict>
+
+                    <dict>
+                        <key>mass</key>
+                        <real>1</real>
+                        <key>elasticity</key>
+                        <real>0.2</real>
+                        <key>friction</key>
+                        <real>0.7</real>
+                        <key>surface_velocity</key>
+                        <string>{ 0.00000,0.00000 }</string>
+                        <key>corner_radius</key>
+                        <real>0</real>
+                        <key>collision_categories</key>
+                        <integer>0</integer>
+                        <key>collision_mask</key>
+                        <integer>0</integer>
+                        <key>collision_type</key>
+                        <string></string>
+                        <key>collision_group</key>
+                        <string></string>
+                        <key>is_sensor</key>
+                        <false/>
+                        
+                        
+                        <key>fixture_type</key>
+                        <string>POLYGON</string>
+                        <key>polygons</key>
+                        <array>
+                            <array>   
+                                <string>{ 29.00000,9.50000 }</string>   
+                                <string>{ 14.50000,21.00000 }</string>   
+                                <string>{ 20.00000,39.50000 }</string>   
+                                <string>{ 30.50000,56.00000 }</string>   
+                                <string>{ 40.00000,38.50000 }</string>   
+                                <string>{ 44.50000,20.00000 }</string>   
+                                <string>{ 47.50000,2.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 44.50000,20.00000 }</string>   
+                                <string>{ 40.00000,38.50000 }</string>   
+                                <string>{ 59.50000,35.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 20.00000,39.50000 }</string>   
+                                <string>{ 14.50000,21.00000 }</string>   
+                                <string>{ -0.50000,36.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 14.50000,21.00000 }</string>   
+                                <string>{ 29.00000,9.50000 }</string>   
+                                <string>{ 11.00000,0.50000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 30.50000,57.00000 }</string>   
+                                <string>{ 30.50000,56.00000 }</string>   
+                                <string>{ 20.00000,39.50000 }</string>
+                            </array>
+                        </array>
+                        
+                        
+                    </dict>
+
+                    <dict>
+                        <key>mass</key>
+                        <real>1</real>
+                        <key>elasticity</key>
+                        <real>0.2</real>
+                        <key>friction</key>
+                        <real>0.7</real>
+                        <key>surface_velocity</key>
+                        <string>{ 0.00000,0.00000 }</string>
+                        <key>corner_radius</key>
+                        <real>0</real>
+                        <key>collision_categories</key>
+                        <integer>0</integer>
+                        <key>collision_mask</key>
+                        <integer>0</integer>
+                        <key>collision_type</key>
+                        <string></string>
+                        <key>collision_group</key>
+                        <string></string>
+                        <key>is_sensor</key>
+                        <false/>
+                        
+                        
+                        <key>fixture_type</key>
+                        <string>POLYGON</string>
+                        <key>polygons</key>
+                        <array>
+                            <array>   
+                                <string>{ 29.00000,9.50000 }</string>   
+                                <string>{ 14.50000,21.00000 }</string>   
+                                <string>{ 20.00000,39.50000 }</string>   
+                                <string>{ 30.50000,56.00000 }</string>   
+                                <string>{ 40.00000,38.50000 }</string>   
+                                <string>{ 44.50000,20.00000 }</string>   
+                                <string>{ 47.50000,2.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 44.50000,20.00000 }</string>   
+                                <string>{ 40.00000,38.50000 }</string>   
+                                <string>{ 59.50000,35.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 20.00000,39.50000 }</string>   
+                                <string>{ 14.50000,21.00000 }</string>   
+                                <string>{ -0.50000,36.00000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 14.50000,21.00000 }</string>   
+                                <string>{ 29.00000,9.50000 }</string>   
+                                <string>{ 11.00000,0.50000 }</string>
+                            </array>
+                            <array>   
+                                <string>{ 30.50000,57.00000 }</string>   
+                                <string>{ 30.50000,56.00000 }</string>   
+                                <string>{ 20.00000,39.50000 }</string>
+                            </array>
+                        </array>
+                        
+                        
+                    </dict>
+
+                </array>
+            </dict>
+
+        </dict>
+    </dict>
+</plist>
+
+
+
+
